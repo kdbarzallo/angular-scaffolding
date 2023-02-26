@@ -1,27 +1,28 @@
-# AngularScaffolding
+# Angular 15 Scaffolding
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+Hello and welcome to this repository! 
+Below I will explain what this repository is about, what it contains and how you can work with it!
 
-## Development server
+## Versions used
+- Angular 15.2.0
+- Node v18.14.2
+- NPM 9.5.0
+- VSCode 1.75.1
+- OS Windows 10
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+I created this repository to have a template to start from in my projects. As we know the whole issue of creating a new application, installing some dependencies and configuring everything to work well can take a lot of time. That is why next I let you know what is installed.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Installed packages:
+- **Prettier & ESLint**: Every good angular project has to have Prettier and ESLint installed for all the code formatting and linting stuff.
+- **Boostrap**: I installed Bootstrap to make use of its 'Grid System'. Any scss file that does not relate to bootstrap's 'Grid System' is not imported into the SPA. Since all the UI theme I will manage it with Angular Material.
+- **Angular Material**: Library that I will use for the user interface.
 
-## Build
+## Run project
+1. Run on root folder `npm install` to install dependencies.
+2. Run `npm run start`.
+3. Navigate to `http://localhost:4200/`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Author
+- Kevin Barzallo | [LinkedIn](https://es.linkedin.com/in/kevin-b-168295108)
