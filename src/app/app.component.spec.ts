@@ -26,6 +26,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-scaffolding app is running!');
+    expect(compiled.querySelector('.example-title')?.textContent).toContain('app.component works!');
   });
 });
