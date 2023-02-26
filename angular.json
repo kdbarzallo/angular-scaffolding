@@ -30,7 +30,8 @@
               "src/assets"
             ],
             "styles": [
-              "scss/custom-bootstrap.scss",
+              "src/assets/styles/custom-bootstrap.scss",
+              "src/assets/styles/angular-material-theme.scss",
               "src/styles.scss"
             ],
             "scripts": []
